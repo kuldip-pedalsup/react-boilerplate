@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 4,
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false,
+    "[html]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    }
+}
