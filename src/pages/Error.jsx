@@ -5,7 +5,7 @@ function ErrorPage() {
 
     return (
         <>
-            <main id={`errorContent`}>
+            <main className={`error_content`}>
                 <h1>An error occurred!</h1>
                 <p>{error.statusText}</p>
             </main>

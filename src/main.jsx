@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './styles/index.css'
+import './assets/styles/global.scss'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import RootLayout from './layout/RootLayout.jsx'
-import ErrorPage from './components/error/Error.jsx'
+import ErrorPage from './pages/Error'
 import Welcome from './pages/Welcome.jsx'
 import Blog from './pages/Blog.jsx'
 import BlogPost from './pages/BlogPost.jsx'
 import CreatePost from './pages/CreatePost.jsx'
 import NewsLetter from './pages/NewsLetter.jsx'
+import Components from './pages/Components'
 
 const router = createBrowserRouter([
     {
@@ -35,8 +36,19 @@ const router = createBrowserRouter([
     },
     {
         path: '/newsletter',
-        element: <NewsLetter />,
+        element: <RootLayout />,
         errorElement: <ErrorPage />,
+        children: [
+            { index: true, element: <NewsLetter /> }
+        ]
+    },
+    {
+        path: '/components',
+        element: <RootLayout />,
+        errorElement: <ErrorPage />,
+        children: [
+            { index: true, element: <Components /> }
+        ]
     }
 ])
 

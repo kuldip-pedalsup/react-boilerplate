@@ -1,5 +1,6 @@
 :root {
     --primaryColor: #000000;
+    --primaryColorDark: #9071ec;
 }
 
 *,
@@ -32,4 +33,8 @@ body {
     height: 100%;
     color: #000000;
     background-color: #ffffff;
+}
+
+.error_content{
+    text-align: center;
 }
