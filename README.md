@@ -28,7 +28,19 @@ fi
 ## Local development
 
 ```bash
-npm run dev
+npm  run  dev
+```
+
+## Production Environment
+
+```bash
+npm  run  build
+```
+
+## Staging Environment
+
+```bash
+npm  run  staging
 ```
 
 # Folder structure
