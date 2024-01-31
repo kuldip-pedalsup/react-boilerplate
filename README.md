@@ -31,17 +31,23 @@ fi
 npm  run  dev
 ```
 
+- create copy of .env.example and rename with .env.local for run project in local.
+
 ## Production Environment
 
 ```bash
 npm  run  build
 ```
 
+- copy and rename .env.example to .env.production, updating it with production credentials.
+
 ## Staging Environment
 
 ```bash
 npm  run  staging
 ```
+
+- copy and rename .env.example to .env.staging, updating it with staging credentials.
 
 # Folder structure
 
