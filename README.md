@@ -57,11 +57,11 @@ npm  run  staging
 │   ├── context // context api's file will be here.
 │   ├── data // constant variables will be here - static data will be export from here.
 │   ├── features // Project module wise folders will be here.
-│	│   ├── blogs // One of the module of project.
-│	│	│   ├── assets // if any assets for particular module then will be here.
-│	│	│   ├── components // components for particular modules will be here.
-│	│	│   ├── services // services (APIs) functions for particular modules will be here.
-│	│	│   ├── index.jsx // for export components or module will be here.
+│   │   ├── blogs // One of the module of project.
+│   │	│   ├── assets // if any assets for particular module then will be here.
+│   │	│   ├── components // components for particular modules will be here.
+│   │	│   ├── services // services (APIs) functions for particular modules will be here.
+│   │	│   ├── index.jsx // for export components or module will be here.
 │   ├── hooks // custom react hooks will be here.
 │   ├── layout // project layouts will be here such as header, footer etc.
 │   ├── pages // route pages will be here such as landing page,
